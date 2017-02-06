@@ -1,0 +1,327 @@
+// Header of specification of the course
+.inv-header-especification-course
+    margin-top 60px
+    background #fff
+
+.header-especificacao-course
+    display flex
+    justify-content space-between
+    align-items center
+    padding 90px 10px 80px 10px
+    box-sizing border-box
+    background #fff
+
+.Logo-information-course
+    flex auto
+    display flex
+    align-items center
+    margin-right 10px
+    img
+        height 110px
+
+.inf-course
+    margin-left 10px
+    h1
+        font-size 25px
+    .inv-level-course
+        display flex
+        align-items center
+        margin-top 8px
+        div
+            width 10px
+            height 10px
+            border-radius 100%
+            border 1px solid #79eace
+            margin-right 5px
+    ul
+        display flex
+        margin-top 8px
+        li
+            margin-right 8px
+
+.inv-level-course-marked
+    background #79eace
+
+.course-registration-button
+    display flex
+    flex-direction column
+    align-items center
+    justify-content center
+    button
+        background #79eace
+        padding 12px 20px
+        border none;
+        border-radius 5px
+        cursor pointer
+        margin-bottom 8px
+        &:hover
+            opacity 0.8
+
+// Explanation of the course
+.explanation-course
+    display flex
+    align-items center
+    justify-content center
+    padding 90px 10px 90px
+
+.txt-explanation-course
+    width 30%
+    margin-right 20px
+    text-align center
+    h3
+        color #018c97
+        font-size 24px
+        margin-bottom 5px
+
+.video-explanation-course
+    width 45%
+
+.content-video-explanation-course
+    width 100%
+    position relative
+    padding-top 56.25%
+
+.content-video-explanation-course iframe
+    position absolute
+    height 100%
+    width 100%
+    top 0
+    left 0
+
+// Program content of the course
+.tt-program-content-course
+    display flex
+    align-items center
+    justify-content center
+    padding 90px 10px 20px 10px
+    box-sizing border-box
+    border-top 1px solid #e5e5e5
+    img
+      height 75px
+      margin-right 15px
+
+.coment-avatar
+    background  #79eace
+    border-radius 5px
+    padding 15px 120px
+    position relative
+    div:before
+        left -10px
+        top 13px
+        position absolute
+        content ""
+        display inline-block
+        vertical-align middle
+        margin-right 10px
+        width 0
+        height 0
+        border-top 12px solid transparent
+        border-bottom 12px solid transparent
+        border-right 12px solid #79eace
+
+.program-content-course
+    padding 0px 10px 0px 10px
+
+.list-program-course
+    width 70%
+    margin 0 auto
+
+.tt-topic
+    display flex
+    justify-content space-between
+    align-items center
+    padding 9px 8px
+    background #fff
+    cursor pointer
+    border-radius 5px
+    margin-top 5px
+    border 1px solid #e5e5e5
+    &:hover
+        opacity 0.8
+    h3
+        font-size 18px
+    i
+        color #018c97
+
+.list-class-program-content
+    display none
+    .inv-guides-name-type-class:last-child .guide-class-vertical-2
+        display none
+
+.inv-guides-name-type-class
+    display flex
+    &:last-child
+        margin-bottom 10px
+
+.guides-class
+    display flex
+    flex-direction column
+    margin-left 20px
+    div
+        width 2px
+        background #79eace
+        &:nth-child(1)
+            height 22px
+        &:nth-child(2)
+            flex auto
+
+.guide-name-type-class
+    flex auto
+    display flex
+    align-items flex-start
+
+.guide-class-horizontal
+    width 20px
+    height 2px
+    margin-top 20px
+    background #79eace
+
+.name-type-class
+    display flex
+    align-items center
+    justify-content space-between
+    width 100%
+    background #fff
+    border 1px solid #e5e5e5
+    padding 5px 8px
+    border-radius 5px
+    border 1px solid #e5e5e5
+    margin-top 5px
+    i
+        font-size 12px
+        color #018c97
+
+.project-program-course
+    display flex
+    justify-content center
+    align-items center
+    border-top 1px solid #e5e5e5
+    margin-top 60px
+    padding 60px 0px 90px 0px
+    img
+        height 220px
+        margin-right 20px
+    div
+        width 60%
+        text-align center
+        h3
+            color #018c97
+            font-size 24px
+            margin-bottom 7px
+
+//Pattern
+.tt-h2-especification-course
+    width 100%
+    padding 90px 10px 10px 10px
+    box-sizing border-box
+    text-align center
+    font-size 26px
+    border-top 1px solid #e5e5e5
+    color #018c97
+
+// Requirements to the course
+// .inv-requirements-course
+//     h2
+//         text-align center
+//         font-size 26px
+//         border-top 1px solid #e5e5e5
+//         padding-top 90px
+//         color #018c97
+
+.requirements-course
+    display flex
+    justify-content center
+    align-items center
+    flex-wrap wrap
+    padding 10px 0px 90px 0px
+    article
+        width 17%
+        margin-top 20px
+        text-align center
+        margin-left 25px
+        &:first-child
+            margin-left 0px
+        div
+            width 100%
+            height 110px
+            border-radius 5px
+            display flex
+            justify-content center
+            align-items center
+            margin-bottom 10px
+            &:hover img
+                height 80px
+            img
+                height 65px
+                transition height 0.5s
+        h3:hover
+            text-decoration underline
+        span
+            color #cd4027
+
+.requirements-optional
+    color #e39343 !important
+
+// Teachers of the course
+// .inv-teachers-course
+//     h2
+//         width 100%
+//         padding 90px 10px 10px 10px
+//         box-sizing border-box
+//         text-align center
+//         font-size 26px
+//         border-top 1px solid #e5e5e5
+//         color #018c97
+
+.teachers-courses
+    padding 30px 10px 90px 10px
+    box-sizing border-box
+    display flex
+    justify-content center
+
+.teacher
+    margin-left 40px
+    text-align center
+    img
+        border-radius 100%
+    &:first-child
+        margin-left 0px
+
+.inf-teacher
+    h4
+        color #018c97
+    div
+        margin-top 5px
+        text-align center
+        a
+            margin-left 8px
+            &:first-child
+                margin-left 0px
+            &:hover
+                color #79eace
+
+
+// Comments of the students
+.cards-comments
+    display flex
+    justify-content center
+    margin-top 30px
+    padding-bottom 90px
+    article
+        width 25%
+        height 270px
+        background #fff
+        border 1px solid #e5e5e5
+        border-radius 5px
+        text-align center
+        padding 20px 15px 20px 15px
+        box-sizing border-box
+        margin-left 25px
+        &:first-child
+            margin-left 0px
+        img
+            border-radius 100%
+        h4
+            color #018c97
+            margin-top 3px
+            margin-bottom 5px

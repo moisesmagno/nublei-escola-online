@@ -1,0 +1,123 @@
+html,body
+	margin 0
+	padding 0
+	font-family 'Source Sans Pro', sans-serif
+	font-size 16px
+	color #3a3a3a
+
+a
+	text-decoration none
+	color #3a3a3a
+
+ul
+	list-style none
+	margin 0
+	padding 0
+	
+h1,h2,h3,h4,p,figure
+	margin 0
+
+.inv-user-plataform
+	display flex
+	flex-direction column
+	background #f9f9f9
+	height 100vh
+	overflow auto
+
+.container
+	max-width 1200px
+	margin 0 auto
+	
+//Form, Input, selected, button
+form
+	width 100%
+	box-sizing border-box
+	
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+input[type="week"],
+input[type="time"],
+input[type="month"],
+input[type="datetime"],
+input[type="date"],
+input[type="color"],
+textarea,
+select
+	width 100%
+	border-radius 5px
+	box-sizing border-box
+	border 1px solid #e5e5e5
+	outline none
+	background #fff
+	&:focus
+		border 1px solid #79eace
+//[Screens > 1024] => (padding 10px 8px) - Pode varia a altura dependendo o caso.
+//[Screens 768px - 1023px] => (padding 	9px 8px) Pode varia a altura dependendo o caso.
+//[Screens 480px - 767px] => (padding 8px 6px) Pode varia a altura dependendo o caso.
+//[Screens 0px - 479px] => (padding 7px 5px) Pode varia a altura dependendo o caso.
+		
+input[type="submit"],
+button[type="button"]
+	border-radius 5px
+	background #79eace
+	border 0px
+	cursor pointer
+	&:hover
+		opacity 0.8	
+//buttom-large  (padding 8px 25px) - [Screens > 1024]
+//buttom-medium (padding 7px 20px) - [Screens 768px - 1023px]
+//buttom-small (padding 6px 18x) - [Screens < 767px]
+	
+//Favorite class, note of class, asssited class
+.favorite-class
+	color #f1e638
+	&:hover 
+		opacity 0.8
+
+.note-class
+	color #79eace
+	&:hover 
+		opacity 0.8
+		
+.assisted-class
+	color #8de951
+	
+// Color files
+.color-file-general
+	color #3a3a3a
+
+.color-file-zip
+	color #FFAB00 
+	
+.color-file-word
+	color #1E88E5
+	
+.color-file-excel
+	color #4CAF50
+	
+.color-file-code
+	color #3F51B5
+	
+.color-file-image
+	color #795548
+	
+.color-file-pdf
+	color #F44336
+
+.color-file-video
+	color #673AB7
+	
+.color-file-powerpoint
+	color #FFC107
+	
+.color-file-text
+	color #757575
+	
+.color-file-audio	
+	color #9C27B0		
+
